@@ -1,0 +1,1 @@
+void activationFunction(float* host_z_values, float* host_activations, int arraySize);
