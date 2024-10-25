@@ -3,15 +3,11 @@
 
 int main()
 {
-    const int arraySize = 5;
+    const int shapeLength = 4;
+	int shape[] = { 4, 8, 8, 1 };
+	float *output = nullptr;
 
-    float input[arraySize] = { 1., 2., 3., 4., 5. };
-    float output[arraySize] = { 0 };
+    feedForwardNetwork(shape, shapeLength, output);
 
-    activationFunction(input, output, arraySize);
-
-    std::cout << "Output: " << output[0] << ", " << output[1] << ", " << output[2] << ", " << output[3] << ", " << output[4];
+    std::cout << "Output: " << output[0];
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu

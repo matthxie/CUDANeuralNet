@@ -1,1 +1,1 @@
-void activationFunction(float* host_z_values, float* host_activations, int arraySize);
+void feedForwardNetwork(int* shape, int shape_length, float *output);
