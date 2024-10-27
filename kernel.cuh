@@ -1,1 +1,1 @@
-void feedForwardNetwork(int* shape, int shape_length, float *output);
+void feedForwardNetwork(int* shape, int shape_length, float *output, int batch_size);

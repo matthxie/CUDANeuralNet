@@ -7,7 +7,7 @@ int main()
 	int shape[] = { 4, 8, 8, 1 };
 	float *output = nullptr;
 
-    feedForwardNetwork(shape, shapeLength, output);
+    feedForwardNetwork(shape, shapeLength, output, 1);
 
     std::cout << "Output: " << output[0];
 }
